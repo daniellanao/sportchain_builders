@@ -106,17 +106,15 @@ export default function Proyectos() {
   return (
     <main className="min-h-screen py-20" style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}>
       <Navbar />
-      <h1 className="text-4xl font-bold  mb-8 text-center text-blue">Proyectos de inversión</h1>
-      
-
+      <h1 className="text-4xl font-bold mb-4 text-center text-blue">Proyectos de inversión</h1>
       {/* Listado de proyectos */}
-      <section className="pb-8 px-4">
+      <section className="pb-4 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-4">
             {projects.map((p) => (
               <div
                 key={p.id}
-                className="rounded-2xl p-6 backdrop-blur-sm"
+                className="rounded-2xl p-4 backdrop-blur-sm"
                 style={{ 
                   backgroundColor: 'rgba(233, 236, 239, 0.8)', 
                   border: '1px solid rgba(220, 196, 142, 0.3)'

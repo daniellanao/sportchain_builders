@@ -13,7 +13,7 @@ export default function Footer() {
     company: [
       { name: 'Inicio', href: '/' },
       { name: 'Proyectos', href: '/proyectos' },
-      { name: 'Tokenización', href: '/tokenizacion' },
+      { name: 'Eventos', href: '/eventos' }
     ],   
     social: [
       { name: 'LinkedIn', href: 'https://linkedin.com/company/sportchain-io', icon: 'linkedin' },
