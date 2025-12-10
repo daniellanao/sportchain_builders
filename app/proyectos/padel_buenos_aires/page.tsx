@@ -149,7 +149,7 @@ export default function PadelBuenosAires() {
               </p>
 
               {/* Métricas clave */}
-              <div className="grid grid-cols-3 gap-4 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <div
                   className="p-4 rounded-lg"
                   style={{
@@ -264,9 +264,9 @@ export default function PadelBuenosAires() {
         <h2 className="text-3xl font-bold mb-6" style={{ color: 'var(--foreground)' }}>
           Resumen Ejecutivo
         </h2>
-        <div className="space-y-4 text-base leading-relaxed" style={{ color: 'var(--foreground)' }}>
+        <div className="space-y-4 text-base leading-relaxed text-justify" style={{ color: 'var(--foreground)' }}>
           <p>
-            SportChain Venue #1, es el 1er proyecto de SportChain diseñado para aumentar la infraestructura deportiva de Latinoamérica 
+            El complejo de Pádel es el primer proyecto de SportChain diseñado para aumentar la infraestructura deportiva de Latinoamérica 
             y permitir que cualquier persona pueda participar en su desarrollo con una inversión accesible y pueda obtener ganancias. 
           </p>
           <p>
@@ -358,11 +358,11 @@ export default function PadelBuenosAires() {
   </div>
 </section>
 
-<section className="py-16" style={{ backgroundColor: 'var(--color-muted)' }}>
+<section className="py-16" style={{ backgroundColor: 'white' }}>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
       {/* Resumen (Izquierda) */}
-      <div>
+      <div className="bg-[var(--color-muted)] rounded-xl p-6 h-fit flex flex-col">
         <h2 className="text-3xl font-bold mb-10" style={{ color: 'var(--foreground)' }}>
           Resumen Financiero para Inversores
         </h2>
