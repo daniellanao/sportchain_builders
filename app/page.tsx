@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import Navbar from './components/Navbar';
-import Image from 'next/image';
-import Link from 'next/link';
 import Hero from './components/home/Hero';
 import MisionVision from './components/home/MisionVision';
 import Roadmap from './components/home/Roadmap';
@@ -15,7 +13,7 @@ export const metadata: Metadata = {
      'latinoamérica', 'deportes', 'pádel', 'fútbol', 'tenis', 'entrenamientos', 'partidos sueltos'],
   openGraph: {
     title: 'SportChain | Inicio',
-    description: 'Plataforma Web3 que permite a las personas invertir y ser dueños de instalaciones deportivas en toda Latinoamérica.',
+    description: 'Plataforma para invertir y recibir ganancias mediante instalaciones deportivas en toda Latinoamérica.',
     url: 'https://sportchain.io',
     images: [
       {
@@ -28,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'SportChain | Inicio',
-    description: 'Plataforma Web3 que permite a las personas invertir y ser dueños de instalaciones deportivas en toda Latinoamérica.',
+    description: 'Plataforma para invertir y recibir ganancias mediante instalaciones deportivas en toda Latinoamérica.',
     images: ['/sportchain_og.png'],
   },
   alternates: {

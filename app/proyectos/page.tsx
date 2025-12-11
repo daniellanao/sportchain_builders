@@ -116,8 +116,8 @@ export default function Proyectos() {
                 key={p.id}
                 className="rounded-2xl p-4 backdrop-blur-sm"
                 style={{ 
-                  backgroundColor: 'rgba(233, 236, 239, 0.8)', 
-                  border: '1px solid rgba(220, 196, 142, 0.3)'
+                  backgroundColor: 'var(--color-surface)', 
+                  border: '1px solid rgba(220, 196, 142, 0.35)'
                 }}
               >
                 <div className="relative mb-4">
@@ -157,7 +157,7 @@ export default function Proyectos() {
                   <span
                     className="flex items-center gap-1 px-2 py-1 rounded-full text-xs"
                     style={{
-                      backgroundColor: 'rgba(220, 196, 142, 0.2)',
+                      backgroundColor: 'rgba(247, 211, 122, 0.18)',
                       color: 'var(--foreground)',
                       minHeight: '28px'
                     }}
@@ -176,7 +176,7 @@ export default function Proyectos() {
                 <div className="mb-4" style={{ minHeight: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                   {p.status === 'abierto' ? (
                     <>
-                      <div className="flex justify-between text-xs mb-2" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>
+                      <div className="flex justify-between text-xs mb-2" style={{ color: 'var(--color-subtle-text)' }}>
                         <span>$ 
                           {Number(p.committedUsd).toLocaleString('en-US', {
                             minimumFractionDigits: 0,
@@ -185,7 +185,7 @@ export default function Proyectos() {
                         </span>
                         <span>Meta {formatCurrency(p.targetGoalUsd)}</span>
                       </div>
-                      <div className="w-full h-2 rounded-full overflow-hidden" style={{ backgroundColor: 'rgba(220, 196, 142, 0.2)' }}>
+                      <div className="w-full h-2 rounded-full overflow-hidden" style={{ backgroundColor: 'rgba(247, 211, 122, 0.22)' }}>
                         <div
                           className="h-full transition-all duration-300"
                           style={{ 
@@ -194,7 +194,7 @@ export default function Proyectos() {
                           }}
                         />
                       </div>
-                      <div className="text-right text-xs mt-1" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>{p.progressPercent}%</div>
+                      <div className="text-right text-xs mt-1" style={{ color: 'var(--color-subtle-text)' }}>{p.progressPercent}%</div>
                     </>
                   ) : (
                     <div
@@ -214,7 +214,7 @@ export default function Proyectos() {
                 >
                   {/* Rendimiento esperado */}
                   <div>
-                    <p className="text-sm mb-1" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>
+                    <p className="text-sm mb-1" style={{ color: 'var(--color-subtle-text)' }}>
                       Rendimiento esperado
                     </p>
                     <p className="text-3xl font-bold" style={{ color: 'var(--color-accent-gold)' }}>
@@ -245,12 +245,12 @@ export default function Proyectos() {
                       style={{
                         backgroundColor:
                           p.status === 'proximamente'
-                            ? 'rgba(220, 196, 142, 0.15)'
-                            : 'rgba(220, 196, 142, 0.08)',
+                            ? 'rgba(247, 211, 122, 0.18)'
+                            : 'rgba(31, 41, 55, 0.65)',
                         color:
                           p.status === 'proximamente'
                             ? 'var(--color-accent-gold)'
-                            : 'rgba(11, 31, 59, 0.4)',
+                            : 'var(--color-subtle-text)',
                         cursor: 'not-allowed',
                         minWidth: 120,
                       }}

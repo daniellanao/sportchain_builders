@@ -107,7 +107,7 @@ export default function PadelBuenosAires() {
               </h1>
               <p
                 className="text-sm md:text-base mb-4"
-                style={{ color: 'rgba(11, 31, 59, 0.7)' }}
+                style={{ color: 'var(--color-subtle-text)' }}
               >
                 {project.location}
               </p>
@@ -115,7 +115,7 @@ export default function PadelBuenosAires() {
               {/* Snapshot de proyecto */}
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6 text-sm">
                 <div className="p-3 rounded-lg" style={{ backgroundColor: 'var(--color-muted)' }}>
-                  <p className="text-[11px] mb-1" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>
+                  <p className="text-[11px] mb-1" style={{ color: 'var(--color-subtle-text)' }}>
                     Estado
                   </p>
                   <p className="font-semibold" style={{ color: 'var(--foreground)' }}>
@@ -123,7 +123,7 @@ export default function PadelBuenosAires() {
                   </p>
                 </div>
                 <div className="p-3 rounded-lg" style={{ backgroundColor: 'var(--color-muted)' }}>
-                  <p className="text-[11px] mb-1" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>
+                  <p className="text-[11px] mb-1" style={{ color: 'var(--color-subtle-text)' }}>
                     Ticket mínimo
                   </p>
                   <p className="font-semibold" style={{ color: 'var(--foreground)' }}>
@@ -131,7 +131,7 @@ export default function PadelBuenosAires() {
                   </p>
                 </div>
                 <div className="p-3 rounded-lg" style={{ backgroundColor: 'var(--color-muted)' }}>
-                  <p className="text-[11px] mb-1" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>
+                  <p className="text-[11px] mb-1" style={{ color: 'var(--color-subtle-text)' }}>
                     Horizonte estimado
                   </p>
                   <p className="font-semibold" style={{ color: 'var(--foreground)' }}>
@@ -159,7 +159,7 @@ export default function PadelBuenosAires() {
                 >
                   <p
                     className="text-sm mb-1"
-                    style={{ color: 'rgba(11, 31, 59, 0.7)' }}
+                    style={{ color: 'var(--color-subtle-text)' }}
                   >
                     Rendimiento esperado
                   </p>
@@ -179,7 +179,7 @@ export default function PadelBuenosAires() {
                 >
                   <p
                     className="text-sm mb-1"
-                    style={{ color: 'rgba(11, 31, 59, 0.7)' }}
+                    style={{ color: 'var(--color-subtle-text)' }}
                   >
                     Período estimado del proyecto
                   </p>
@@ -194,7 +194,7 @@ export default function PadelBuenosAires() {
               <div>
                 <div
                   className="flex justify-between text-sm mb-2"
-                  style={{ color: 'rgba(11, 31, 59, 0.7)' }}
+                  style={{ color: 'var(--color-subtle-text)' }}
                 >
                   <span>
                     $
@@ -220,7 +220,7 @@ export default function PadelBuenosAires() {
                 </div>
                 <div
                   className="text-right text-sm mt-2"
-                  style={{ color: 'rgba(11, 31, 59, 0.7)' }}
+                  style={{ color: 'var(--color-subtle-text)' }}
                 >
                   {project.progressPercent}% completado
                 </div>
@@ -255,7 +255,7 @@ export default function PadelBuenosAires() {
         </div>
       </section>
 
-<section className="py-16" style={{ backgroundColor: 'white' }}>
+<section className="py-16" style={{ backgroundColor: 'var(--color-muted)' }}>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
@@ -358,7 +358,7 @@ export default function PadelBuenosAires() {
   </div>
 </section>
 
-<section className="py-16" style={{ backgroundColor: 'white' }}>
+<section className="py-16" style={{ backgroundColor: 'var(--color-muted)' }}>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
       {/* Resumen (Izquierda) */}
@@ -463,7 +463,7 @@ export default function PadelBuenosAires() {
           <h2 className="text-3xl font-bold mb-4" style={{ color: 'var(--foreground)' }}>
             ¿Listo para invertir?
           </h2>
-          <p className="text-lg mb-8" style={{ color: 'rgba(11, 31, 59, 0.7)' }}>
+          <p className="text-lg mb-8" style={{ color: 'var(--color-subtle-text)' }}>
             Únete a otros inversores y forma parte del futuro del deporte en Latinoamérica.
           </p>
           <button
