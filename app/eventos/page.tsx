@@ -42,6 +42,62 @@ export default function Eventos() {
         <div className="max-w-6xl mx-auto">                    
 
             <div className="grid md:grid-cols-3 gap-8">
+
+               {/* Past Event: Padel Tournament for Startups & Web3 8.0 */}
+            <div
+              className="rounded-2xl p-6 backdrop-blur-sm"
+              style={{
+                backgroundColor: 'var(--color-surface)',
+                border: '1px solid rgba(247, 211, 122, 0.28)'
+              }}
+            >
+              <div className="relative mb-4">
+                <Image
+                  src="/eventos/sportchain_padel_tournament_8.jpg"
+                  alt="Torneo de Pádel para Startups & Web3 8.0"
+                  width={400}
+                  height={300}
+                  className="rounded-xl object-cover w-full h-48"
+                />
+                <div className="absolute top-3 right-3">
+                  <span
+                    className="px-2 py-1 rounded-full text-xs font-bold"
+                    style={{ backgroundColor: 'var(--color-primary)', color: '#fff' }}
+                  >
+                    PÁDEL
+                  </span>
+                </div>
+                <div className="absolute bottom-3 left-3">
+                  <span
+                    className="px-2 py-1 rounded-full text-xs font-bold"
+                    style={{ backgroundColor: 'rgba(18, 48, 93, 0.7)', color: '#fff' }}
+                  >
+                    FINALIZADO
+                  </span>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold mb-3" style={{ color: 'var(--foreground)' }}>
+              Padel Tournament for Startups & Web3 8.0
+              </h3>
+              <p className="mb-4 text-sm" style={{ color: 'var(--color-subtle-text)' }}>
+              Último torneo de pádel con 16 participantes en 2025, reuniendo a founders, startups y entusiastas del deporte en una gran jornada de networking y diversión.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span
+                  className="px-2 py-1 rounded-full text-xs"
+                  style={{ backgroundColor: 'rgba(227, 194, 115, 0.18)', color: 'var(--color-primary)' }}
+                >
+                  🏆 Ganador: Rafa & Dani
+                </span>
+                <span
+                  className="px-2 py-1 rounded-full text-xs"
+                  style={{ backgroundColor: 'rgba(227, 194, 115, 0.18)', color: 'var(--color-primary)' }}
+                >
+                  📅 13 de Diciembre 2025
+                </span>
+              </div>
+            </div>
+
             {/* Past Event: Padel DevConnect Tournament */}
             <div
               className="rounded-2xl p-6 backdrop-blur-sm"
