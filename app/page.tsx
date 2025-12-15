@@ -42,11 +42,6 @@ export default function Home() {
       <MisionVision />    
       <Roadmap />
       <Community />
-     
-
-      
-      
-      
     </main>
   );
 }

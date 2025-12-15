@@ -20,7 +20,8 @@ export default function Navbar() {
   const navItems = [
     { name: 'INICIO', href: '/', icon: 'home' },
     { name: 'PROYECTOS', href: '/proyectos', icon: 'project' },
-    { name: 'EVENTOS', href: '/eventos', icon: 'coins' }
+    { name: 'EVENTOS', href: '/eventos', icon: 'coins' },
+    { name: 'DEMO DASHBOARD', href: '/demo', icon: 'demo' }
   ];
 
   return (
